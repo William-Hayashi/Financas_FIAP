@@ -1,1 +1,0 @@
-def obter_escolha_usuario
