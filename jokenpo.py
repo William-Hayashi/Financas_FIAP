@@ -1,9 +1,9 @@
 import random
 
 def obter_escolha_usuario():
- print("Olá! Bem Vindo JANGEKU! O nosso jogo de Jokenpo!")
+ print("----------------Olá! Bem Vindo JANGEKU! O nosso jogo de Jokenpo!-------------")
  escolha_user = input("Digite a sua escolha (pedra, papel ou tesoura):")
- escolha_caixa_alta = escolha_user.upper()
+ escolha_caixa_alta = escolha_user.upper()--
 
  while True:
   if escolha_caixa_alta == "TESOURA" or escolha_caixa_alta == "PAPEL" or escolha_caixa_alta == "PEDRA":
