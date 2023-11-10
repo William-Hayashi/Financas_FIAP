@@ -1,40 +1,39 @@
-Introdução¶
-Crie um jogo simples de pedra, papel ou tesoura, onde o usuário joga contra o computador.
+Jogo de Jokenpo
 
+Bem-vindo ao nosso Jogo de Jokenpo! Este é um jogo clássico e divertido de decisão rápida baseado na escolha entre Pedra, Papel e Tesoura. Abaixo, você encontrará as instruções e algumas informações sobre o jogo.
 
-Siga as instruções das funções a serem Implementadas¶
-obter_escolha_usuario¶
-Descrição: Obtém a escolha do usuário.
-Entrada: Nenhuma.
-Saída: Escolha do usuário (pedra, papel ou tesoura).
-Dicas:
+Instruções:
+Como jogar:
 
-Implemente uma interface de usuário amigável.
+Cada jogador escolhe entre Pedra, Papel ou Tesoura.
+A Pedra vence a Tesoura (a quebra).
+A Tesoura vence o Papel (corta).
+O Papel vence a Pedra (embrulha).
+O jogo é composto por:
 
-gerar_escolha_computador¶
-Descrição: Gera uma escolha aleatória para o computador.
-Entrada: Nenhuma.
-Saída: Escolha do computador.
-Dicas:
+Pedra: Representada por um punho fechado.
+Papel: Representado por uma mão aberta.
+Tesoura: Representada por dedos estendidos.
+Como ganhar:
 
-Use a biblioteca random para gerar uma escolha aleatória.
+Se sua escolha vencer, você ganha um ponto.
+O primeiro a alcançar X pontos vence (defina X como preferir).
+Começando:
+Escolha uma opção: Pedra, Papel ou Tesoura.
+O computador ou outro jogador fará o mesmo.
+Comparem as escolhas e determinem o vencedor.
+O jogo continua até um dos jogadores alcançar o número estabelecido de pontos.
+Como executar o Jogo:
+Pré-requisitos:
 
-determinar_vencedor¶
-Descrição: Determina o vencedor do jogo.
-Entrada: Escolha do usuário e escolha do computador.
-Saída: Resultado do jogo (vitória, derrota ou empate).
-Dicas:
+Este jogo pode ser jogado de várias formas, seja em um aplicativo, site ou até mesmo de forma física.
+Se for um jogo digital:
 
-Forneça feedback ao usuário.
-
-jogar_novamente¶
-Descrição: Pergunta ao usuário se ele quer jogar novamente.
-Entrada: Nenhuma.
-Saída: Resposta do usuário (sim ou não).
-Dicas:
-
-Mantenha o jogo envolvente.
-
-Função Principal e Modularização¶
-Crie a função principal main que orquestrará a execução do seu código.
-É permitido criar quantas funções adicionais ou módulos conforme achar necessário para manter cada parte do código focada em uma tarefa específica.
+Abra o aplicativo ou site do Jokenpo.
+Escolha sua jogada clicando no ícone correspondente.
+O programa computacional irá fazer sua escolha aleatória.
+Determine o vencedor baseado nas regras.
+Recursos adicionais:
+Modos de jogo: Você pode experimentar diferentes modos, como "Melhor de Três" ou "Melhor de Cinco" para aumentar a emoção.
+Estratégias: Explore estratégias e padrões para tentar prever a escolha do seu oponente.
+Divirta-se jogando Jokenpo! Este é um jogo simples, mas pode ser surpreendentemente estratégico e muito divertido. Boa sorte e que vença o melhor!
